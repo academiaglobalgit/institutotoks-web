@@ -104,7 +104,7 @@ if($url=="http://www.itoks.mx:80/" or $url=="http://itoks.mx:80/")
 						    </strong> -->
 								<div class="col-md-6 col-md-offset-3"  >
 									<div class="subtitulo" style="font-style:bold;" ><strong>BIENVENIDOS</strong></div>
-									<div class="subtitulo" style="font-size: 29px;"  >-AL INSTITUTO TOKS-</div>
+									<div class="subtitulo" style="font-size: 29px;"  >AL INSTITUTO TOKS</div>
 								</div>
 							</div>
 							<div class="visible-lg  visible-md  row text-center" style="position:relative; bottom: 0px;" >
