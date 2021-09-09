@@ -1,0 +1,149 @@
+body{
+  background-color:black;
+}
+@font-face {
+    font-family: "avenirlight";
+    font-weight: normal;
+    font-style: normal;
+     src: local("avenirlight Regular"), local("avenirlight"),
+        url(../fonts/avenirlight/avenirlight.eot),                     
+        url(../fonts/avenirlight/avenirlight.woff) format('woff'),      
+        url(../fonts/avenirlight/avenirlight.ttf) format('truetype'),     
+        url(../fonts/avenirlight/avenirlight.svg#avenirlight) format('svg'); /* iOS */
+}
+@font-face {
+    font-family: "avenir";
+    font-weight: normal;
+    font-style: normal;
+
+        src: local("avenir Regular"), local("avenir"),
+        url(../fonts/avenir/Avenir.eot),                     
+        url(../fonts/avenir/Avenir.woff) format('woff'),      
+        url(../fonts/avenir/Avenir.ttf) format('truetype'),     
+        url(../fonts/avenir/Avenir.svg#avenir) format('svg'); /* iOS */
+
+    }
+.locato {
+  font-family: 'avenirlight';
+  color: black;
+}
+.locato-bold {
+  font-family: 'avenir';
+  
+}
+* {
+  padding: 0;
+}
+.display-errors {
+  color: #a94442;
+  border-color: #ebccd1;
+}
+display-success {
+  color: #3c763d;
+  border-color: #d6e9c6;
+}
+#heading_videoteca {
+  font-family: 'avenir';
+}
+#content_videoteca .heading_periodos {
+  background-color: black;
+  color:#F07E30;
+  -webkit-border-radius: 5px;
+  font-family: 'avenir';
+  text-align: center;
+  border-color:#F07E30; 
+  border-width: 2px;
+
+}
+#content_videoteca .heading_title_materias {
+  padding-left: 0px;
+  color: #F07E30;
+  font-family: 'avenir';
+}
+#content_videoteca li {
+  list-style: none;
+  padding-left: 32px;
+}
+#content_videoteca li a.links_videos {
+  color: #000;
+  font-family: 'avenir';
+}
+#content_videoteca li a.links_videos span {
+  color: #F07E30;
+}
+#content_videoteca a.links_videos:hover {
+   color: black;
+
+  text-decoration: none;
+  font-family: 'avenir';
+}
+#content_videoteca .heading_title_video {
+  background-color: #F07E30;
+  color: #fff;
+  font-family: 'Locator-Black', Helvetica, sans-serif;
+}
+
+.titulo{
+    font-family: "avenir";
+    font-size: 40px;
+    word-wrap: break-word;
+    text-align: center;
+  }
+  .subtitulo{
+    font-family: "avenir";
+    font-size: 38px;
+    word-wrap: break-word;
+    text-align: center;
+  }
+  .subtitulo_orange{
+    font-family: "avenir";
+    font-size: 38px;
+    word-wrap: break-word;
+    text-align: center;
+    color: #F07E30;
+  }
+
+  .imagen-banner{
+    /*height: 50%;
+    width: auto;*/
+
+    height: 130px;
+    width: 130px;
+  }
+  .imagen-footer{
+    height: 50px;
+    width: 46px;
+  }
+  .p_texto{
+  
+    font-family: "avenir";
+    word-wrap: break-word;
+    text-align: center;
+    font-size: 15px;
+
+  }
+  .p_texto_orange{
+  
+    font-family: "avenir";
+    word-wrap: break-word;
+    text-align:center;
+    font-size: 15px;
+    color: #F07E30;
+  }
+  .p_texto_small{
+  
+    font-family: "avenir";
+    word-wrap: break-word;
+    text-align: center;
+    font-size: 12px;
+
+  }
+
+  .p_texto_small_grey{
+  
+    font-family: "avenir";
+    word-wrap: break-word;
+    text-align: justify;
+    font-size: 12px;
+    color: grey;
+  }

@@ -1,0 +1,684 @@
+
+@font-face {
+    font-family: "avenirlight";
+    font-weight: normal;
+    font-style: normal;
+     src: local("avenirlight Regular"), local("avenirlight"),
+        url(../fonts/avenirlight/avenirlight.eot),                     
+        url(../fonts/avenirlight/avenirlight.woff) format('woff'),      
+        url(../fonts/avenirlight/avenirlight.ttf) format('truetype'),     
+        url(../fonts/avenirlight/avenirlight.svg#avenirlight) format('svg'); /* iOS */
+}
+@font-face {
+    font-family: "avenir";
+    font-weight: normal;
+    font-style: normal;
+
+        src: local("avenir Regular"), local("avenir"),
+        url(../fonts/avenir/Avenir.eot),                     
+        url(../fonts/avenir/Avenir.woff) format('woff'),      
+        url(../fonts/avenir/Avenir.ttf) format('truetype'),     
+        url(../fonts/avenir/Avenir.svg#avenir) format('svg'); /* iOS */
+
+    }
+body{
+	color: white;
+	background-color:black;
+	margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px;
+    padding: 0;
+	width: 100%;
+
+}
+
+.container-fluid{
+	color: white;
+	background-color:black;
+	margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px;
+    padding: 0;
+	width: 100%;
+}
+.banner-bottom {
+
+	background-color: #F07E30; 
+	width: 100%;
+	height: 40%;
+ 	behavior: url(pie/PIE.htc);
+}
+
+.footer-bottom {
+	background-color: #F07E30; 
+	width: 100%;
+	height:auto;
+}
+.footer-top {
+	background-color: white; 
+	width: 100%;
+	height:auto;
+	color: #F07E30;
+}
+.content-top {
+	background-color: black; 
+	width: 100%;
+	height:60%;
+	background-size: 100% auto; 
+	background-image: url(../img/img_1.jpg);
+}
+.content-complete2 {
+	background-color: #ddd; 
+	width: 100%;
+	height: 1150px;
+	background-repeat:no-repeat; 
+	background-size: 100% 100%; 
+	background-image: url(../img/instituto-toks-02.png);
+	color: black;
+	transition: background 1s linear;
+}
+
+.content-complete-noscroll {
+	background-color: #F4EEDD; 
+	width: 100%;
+	height: auto;
+	color: black;
+}
+.content-complete7 {
+	background-color: black; 
+	width: 100%;
+	height: 100%;
+	background-repeat:no-repeat; 
+	background-size: 100% 100%; 
+	/*background-image: url(../img/foto1-01.png);*/
+	color: black;
+	transition: background 1s linear;
+}
+
+	.subbutton{
+		height: 3em !important; 
+		margin-bottom: 1px;  padding:0;
+		 height:100% !important;  font-size:9px; font-family: avenir !important; padding:0;
+	}
+	.subbutton > a {
+		width: 100%;
+    	height: 100%;
+		vertical-align: center;
+		padding-top:20px;
+		 height:100% !important;  
+		 font-size:9px; 
+		 font-family: avenir 
+		 !important; padding:0;
+	}
+
+	.toggle_subtutton{
+		padding-top: 15px;
+		cursor: pointer;
+		 height:100%; background-color: #F07E30;
+		 font-size:9px; 
+		 font-family: avenir 
+	}
+	.toggle_subtutton:hover{ 
+		cursor: pointer;
+		background-color: white;
+    	color: #555;
+	}
+
+/*.dropdown:after {
+      content: "";
+      position: absolute;  
+      bottom: -10px;
+      height: 10px;
+      width: 100%;
+      left: 0;
+      display: block;
+}
+
+.dropdown:hover > ul.dropdown-menu  {
+      display: block;
+}*/
+.menu {
+	position: fixed;
+	top:0px;
+	left:0px;
+	padding: 0px;
+	/*background-color: grey; */
+}
+
+.menu li{
+    margin-bottom: 5px;
+    background-color: #F07E30;
+    height: 3em;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    margin: 0px 0px 0px 0px ;
+    padding: 8px 0px 8px 16px;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+/* Change the link color on hover */
+.menu li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+
+
+
+.menu-orange a{
+	color: white !important;
+	background-color: #F07E30;
+	font-family: "avenir";
+}
+
+.menu-orange2 a{
+	color: white !important;
+	background-color: #EA843F;
+	font-family: "avenir";
+}
+
+.menu-orange3 a{
+	color: white !important;
+	background-color: #F4A351;
+	font-family: "avenir";
+}
+
+.menu-orange4 a{
+	color: white !important;
+	background-color: #F7BB79;
+	font-family: "avenir";
+}
+
+
+.menu-red a {
+	color: white !important;
+	background-color: red;
+	font-family: "avenir";
+}
+
+.menu-brown a {
+	color: white !important;
+	background-color: #2F1312;
+	font-family: "avenir";
+}
+
+.menu-black a{
+	color: white !important;
+	background-color: black;
+	font-family: "avenir";
+}
+
+.menu-orange a:hover,
+	.menu-orange2 a:hover,
+	.menu-orange3 a:hover,
+	.menu-orange4 a:hover,
+	.menu-black a:hover,
+	.menu-brown a:hover
+	{
+		color: black !important;
+		background-color: white !important;
+	}
+
+
+.menu-orange a:focus,
+	.menu-orange2 a:focus,
+	.menu-orange3 a:focus,
+	.menu-orange4 a:focus,
+	.menu-black a:focus,
+	.menu-brown a:focus
+	{
+		color: black !important;
+		background-color: white !important;
+	}
+
+
+@media (min-width: 768px) {
+
+	  .navbar-collapse {
+	    height: auto;
+	    border-top: 0;
+	    box-shadow: none;
+	    max-height: none;
+	    padding-left:0;
+	    padding-right:0;
+	    margin-top: 0px;
+		margin-bottom: 0px;
+	    background-color:transparent; 
+		border-style: none !important;
+	}
+	  .navbar-collapse.collapse {
+	    display: block !important;
+	    width: auto !important;
+	    padding-bottom: 0;
+	    overflow: visible !important;
+		border-style: none !important;
+	  }
+	  .navbar-collapse.in {
+	    overflow-x: visible;
+	    border-style: none !important;
+	    z-index: 9999999;
+	  }
+
+	.logo-brand {
+
+		/*background-size: 100% 100% !important;*/
+		padding: 0px 0px 0px 0px;
+		height: 130px; 
+		width: 100%; 
+		/*background-image: url(../img/logo-instituto.jpg);*/
+	}
+
+	.logo-brand-img {
+
+		/*background-size: 100% 100% !important;*/
+
+		height: 100%; 
+		width: 100%; 
+		/*background-image: url(../img/logo-instituto.jpg);*/
+	}
+	.navbar
+	{
+
+		top:0px;
+		max-width:150px;
+		background-color: transparent; 
+		border-style: none !important;
+		margin-right: 0;
+		margin-left: 1;
+		position: fixed;
+		z-index: 999;
+		border-style: none !important;
+
+	}	
+
+
+	.navbar-nav,
+	.navbar-nav > li,
+	.navbar-left,
+	.navbar-right,
+	.navbar-header
+	{
+		z-index:9999;
+		background-color: transparent; 
+		border-style: none !important;
+		float:none !important;
+	}
+	.navbar-right .dropdown-menu {left:0;right:auto;}
+	.navbar-collapse .navbar-nav.navbar-right:last-child {
+	    margin-right: 0;
+	    border-style: none !important;
+
+	}
+
+}
+	.navbar  {
+		background-color: transparent; 
+		margin-bottom: 0px;
+		border-style: none !important;
+
+	}
+	.navbar  ul{
+		margin-top: 0px;
+		margin-bottom: 0px;
+		border-style: none !important;
+
+
+	}
+	.navbar-nav > li{
+		height: 40px;
+		margin-bottom: 1px !important;
+		border-style: none !important;
+
+	}
+	.navbar-nav > li > a{
+		font-family: "avenir";
+		height: 100%;
+		font-size: 9px;
+		vertical-align: center;
+		padding:12px;
+		text-align: center;
+		vertical-align: center;
+		border-style: none !important;
+
+	}
+
+@media (max-width: 769px) { /* ==================PANTALLA CHICA =============*/
+	.container-fluid{
+
+	color: white;
+	background-color:black;
+	margin-top: -50px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px;
+    padding: 0;
+	width: 100%;
+	
+	}
+	.logo-brand
+	{
+		/*background-repeat:no-repeat; 
+		background-size: 100% 100%; */
+		height: 50px;
+		width: 50px; 
+		/*background-image: url(../img/toks_logo.png);*/
+		padding: 0;
+	}
+	.logo-brand-img {
+
+
+		height: 50px; 
+		width: 50px; 
+	}
+	.banner-bottom {
+	background-color: #F07E30; 
+	width: 100%;
+	height: 40%!important;
+
+	}
+	.content-top {
+		background-color: grey; 
+		width: 100%;
+		height: 60%;
+		background-repeat:no-repeat; 
+		background-size: 100% 100%; 
+		background-image: url(../img/img_1.jpg);
+	}
+	.imagen-banner{
+		/*height: 50%;
+		width: auto;*/
+		height: 50px!important ;
+		width: 50px !important;
+	}
+	.menu-orange a:focus,
+	.menu-orange2 a:focus,
+	.menu-orange3 a:focus,
+	.menu-orange4 a:focus,
+	.menu-black a:focus
+	{
+		color: black !important;
+		background-color: white !important;
+	}
+
+	.content-complete2 {
+	background-color: #ddd; 
+	width: 100%;
+	height: 1100px;
+
+	background-repeat:no-repeat; 
+	background-size: 100% 100%; 
+	background-image: url(../img/instituto-toks-02.png);
+	color: black;
+	}
+
+	.content-complete7 {
+	background-color: black; 
+	width: 100%;
+	height: 100%;
+	background-repeat:no-repeat; 
+	background-size: 100% 100%; 
+	/*background-image: url(../img/foto1-01.png);*/
+	color: black;
+	transition: background 1s linear;
+	}
+
+	.borde-marco2{
+			margin-top: 150px;
+			margin-bottom: 150px;
+		  height: 100%;
+		  opacity: 0.9 !important; 
+		  background-color: black;
+		  z-index: 9;
+	}
+
+}
+
+
+
+
+	.titulo{
+		font-family: "avenir";
+		font-size: 40px;
+		word-wrap: break-word;
+		text-align: center;
+	}
+	.subtitulo{
+		font-family: "avenir";
+		font-size: 38px;
+		word-wrap: break-word;
+		text-align: center;
+	}
+	.subtitulo_orange{
+		font-family: "avenir";
+		font-size: 38px;
+		word-wrap: break-word;
+		text-align: center;
+		color: #F07E30;
+	}
+
+	.imagen-banner{
+		/*height: 50%;
+		width: auto;*/
+
+		height: 130px;
+		width: 130px;
+	}
+	.imagen-footer{
+		height: 50px;
+		width: 46px;
+	}
+	.p_texto{
+	
+		font-family: "avenir";
+		word-wrap: break-word;
+		text-align: center;
+		font-size: 15px;
+
+	}
+	.p_texto_orange{
+	
+		font-family: "avenir";
+		word-wrap: break-word;
+		text-align:center;
+		font-size: 15px;
+		color: #F07E30;
+	}
+	.p_texto_small{
+	
+		font-family: "avenir";
+		word-wrap: break-word;
+		text-align: center;
+		font-size: 12px;
+
+	}
+
+	.p_texto_small_grey{
+	
+		font-family: "avenir";
+		word-wrap: break-word;
+		text-align: justify;
+		font-size: 12px;
+		color: grey;
+	}
+	.borde-marco{
+		height:auto;
+		  border: silver 30px solid;
+		  -ms-border: grey 1px solid;
+
+		 /* border-image-source: url("../img/marco_titulo.png");
+		  border-image-slice: 40 fill;*/
+		  border-image: url("../img/marco_titulo.png") 40 fill stretch;
+		}
+	
+	.borde-marco2{
+
+		  height: 100%;
+		  opacity: 0.9 !important; 
+		  background-color: black;
+		  z-index: 9;
+	}
+	.borde-marco3{
+
+		  border: silver 30px solid;
+		  -ms-border: grey 1px solid;
+
+		 /* border-image-source: url("../img/marco_titulo.png");
+		  border-image-slice: 40 fill;*/
+		  border-image: url("marco_titulo.png") 40 fill stretch;
+
+	}
+	.submarco{
+		  border-style: solid;
+		  border-width: 5px;
+		  border-color: #F07E30;
+		  color:white;
+		  top: 45%;
+		  position: relative;
+		  padding: 10px;
+		  cursor: pointer;
+		  background-image: url("../img/black.png");
+		  background-repeat: repeat;
+	}
+		.submarco-noscroll{
+		  border-style: solid;
+		  border-width: 2px;
+		  border-color: #F07E30;
+		  color:white;
+		  top: 45%;
+		  position: relative;
+		  padding: 10px;
+		  cursor: pointer;
+	}
+	.titulo-marco{
+
+		position:relative; 
+		top:-40px;
+		color:#F07E30;
+	}
+
+	.titulo-marco-noscroll{
+
+		position:relative; 
+		top:-40px;
+		color:#F07E30;
+	}
+
+
+	.vertical-center {
+
+	 vertical-align: center;
+	  align-items: center;
+	}
+
+
+	.input-toks {
+		background-color: black; 
+		border-style: solid;
+		border-width: 2px;
+		border-radius: 0px;
+		border-color: white;
+		color:white;
+		top: 45%;
+		position: relative;
+		resize: none;
+		opacity: 1 ; 
+		height: 50px;
+		font-family: "avenir";
+
+	}
+
+
+	.submit-toks {
+		background-color: black; 
+		border-style: solid;
+		border-width: 2px;
+		border-radius: 0px;
+		border-color: #F07E30;
+		color:white;
+		top: 45%;
+		position: relative;
+		height: 50px;
+		font-family: "avenir";
+
+	}
+
+	.titulo_contacto{
+		font-family: "avenir";
+		color: #F07E30;
+
+	}
+
+	.row {
+			margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px;
+    		padding: 0;
+
+	}
+
+
+
+table.table-toks {
+	font-family: "avenir";
+	font-size:11px;
+	color: black;
+	border-width: 1px;
+	border-color: #ccc;
+	border-collapse: collapse;
+}
+table.table-toks th {
+	font-family: "avenirlight";
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	font-style: normal;
+	border-color: #ccc;
+	color: #F07E30;
+	font-size: 18px;
+	/*background-color: #dedede;*/
+}
+table.table-toks td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #ccc;
+	/*background-color: #ffffff;*/
+}
+
+
+
+table.table-toks2 {
+	font-family: "avenir";
+	font-size:11px;
+	color: black;
+	border-width: 1px;
+	border-color: #ccc;
+	border-collapse: collapse;
+}
+table.table-toks2 th {
+	font-family: "avenirlight";
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	font-style: normal;
+	border-color: #ccc;
+	color: #F07E30;
+	font-size: 11px;
+	/*background-color: #dedede;*/
+}
+table.table-toks2 td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #ccc;
+	/*background-color: #ffffff;*/
+}
+	/*ALINEAR EL TITULO DEL CALENDARIO*/
+.fc-center  h2{
+	position: absolute;
+	left: 43%;
+}
