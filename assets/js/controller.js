@@ -8,6 +8,37 @@ $(document).ready(function() {
     combobox_estados_2();
     combobox_ciudades_2();
 
+    $.getJSON("http://jsonip.com?callback=?", function(data) {
+        $("#ip").val(data.ip);
+    });
+
+
+    let browser = (function() {
+        var test = function(regexp) { return regexp.test(window.navigator.userAgent) }
+        switch (true) {
+            case test(/edg/i):
+                return "Microsoft Edge";
+            case test(/trident/i):
+                return "Microsoft Internet Explorer";
+            case test(/firefox|fxios/i):
+                return "Mozilla Firefox";
+            case test(/opr\//i):
+                return "Opera";
+            case test(/ucbrowser/i):
+                return "UC Browser";
+            case test(/samsungbrowser/i):
+                return "Samsung Browser";
+            case test(/chrome|chromium|crios/i):
+                return "Google Chrome";
+            case test(/safari/i):
+                return "Apple Safari";
+            default:
+                return "Other";
+        }
+    })();
+
+    $('#browser').val(browser);
+
     $("#btn_inscripcion_preparatoria").click(function() {
         $('#inscripcion_tipo').val(1); // asigna el tipo de inscripción a 1 = preparatoria 
         $('#myModalLabel_inscripcion').empty().append("Ficha de Pre-Inscripción para Preparatoria");
@@ -206,7 +237,9 @@ $(document).ready(function() {
                 var $form = $(e.target),
                     fv = $form.data('formValidation');
 
-                console.log($form)
+
+
+
 
                 $.ajax({
                     url: 'php/enviarcorreo.php',

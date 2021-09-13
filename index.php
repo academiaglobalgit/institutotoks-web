@@ -378,6 +378,9 @@ if($url=="http://www.itoks.mx:80/" or $url=="http://itoks.mx:80/")
 								<div class="form-group col-md-12 col-xs-12">
 									<input class="form-control submit-toks" type="submit" value="ENVIAR"  name="ENVIAR" id="ENVIAR" >
 								</div>
+								<input class="form-control submit-toks" type="hidden" value=""  name="ip" id="ip" >
+								<input class="form-control submit-toks" type="hidden" value=""  name="browser" id="browser" >
+
 								<!--<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 " style="text-align:right; font-size:20px;"  >
 										<div class="pull-right  col-xs-12" >ATENCIÓN TELEFÓNICA</div>
 										<div class="pull-right  col-xs-12" style="margin-top:0px;">(667) 000 00 00</div>
