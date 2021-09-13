@@ -11,7 +11,7 @@ $query =
     "INSERT INTO escolar.tb_contacto_correos_enviados(pagina_origen, nombre, correo, telefono, ip, navegador, mensaje) 
         VALUES ('http://institutotoks.mx/web/', '$datos[nombre]', '$datos[email]', '$datos[telefono]', '$datos[ip]', '$datos[browser]', '$datos[mensaje]')";
 
-$conexion->query($query);
+print_r($conexion->query($query));
 
 $nombre =$_POST['nombre'];
 $email = $_POST['correo'];
