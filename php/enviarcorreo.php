@@ -2,6 +2,17 @@
 
 include('PHPMailer/class.phpmailer.php');
 include('PHPMailer/class.smtp.php');
+require_once('connection.php');
+
+$conexion= conexion();
+mysqli_set_charset($conexion,'utf8');
+
+$query = 
+    "INSERT INTO escolar.tb_contacto_correos_enviados(pagina_origen, nombre, correo, telefono, ip, navegador, mensaje) 
+        VALUES ('http://institutotoks.mx/web/', '$datos[nombre]', '$datos[email]', '$datos[telefono]', '$datos[ip]', '$datos[browser]', '$datos[mensaje]')";
+
+$conexion->query($query);
+
 $nombre =$_POST['nombre'];
 $email = $_POST['correo'];
 $telefono = $_POST['telefono'];
