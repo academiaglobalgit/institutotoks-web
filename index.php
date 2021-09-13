@@ -104,7 +104,7 @@ if($url=="http://www.itoks.mx:80/" or $url=="http://itoks.mx:80/")
 						    </strong> -->
 								<div class="col-md-6 col-md-offset-3"  >
 									<div class="subtitulo" style="font-style:bold;" ><strong>BIENVENIDOS</strong></div>
-									<div class="subtitulo" style="font-size: 29px;"  >AL INSTITUTO TOKS</div>
+									<div class="subtitulo" style="font-size: 29px;"  >-AL INSTITUTO TOKS-</div>
 								</div>
 							</div>
 							<div class="visible-lg  visible-md  row text-center" style="position:relative; bottom: 0px;" >
@@ -360,7 +360,7 @@ if($url=="http://www.itoks.mx:80/" or $url=="http://itoks.mx:80/")
 
 							<form class="form" id="form_contacto" name="form_cantacto" >
 								<div class="form-group col-md-12 col-xs-12">
-									<div class="titulo_contacto" ><h2>CONTACTO</h2></div>
+									<div class="titulo_contacto" ><h2>CONTACTO - v13092021-5</h2></div>
 									<small class="p_texto_small">Tu opinión es muy importante para nosotros. Si tienes algún comentario o sugerencia, ponte en contacto con nosotros.</small>
 								</div>
 								<div class="form-group col-md-12 col-xs-12">
@@ -378,6 +378,9 @@ if($url=="http://www.itoks.mx:80/" or $url=="http://itoks.mx:80/")
 								<div class="form-group col-md-12 col-xs-12">
 									<input class="form-control submit-toks" type="submit" value="ENVIAR"  name="ENVIAR" id="ENVIAR" >
 								</div>
+								<input class="form-control submit-toks" type="hidden" value=""  name="ip" id="ip" >
+								<input class="form-control submit-toks" type="hidden" value=""  name="browser" id="browser" >
+
 								<!--<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 " style="text-align:right; font-size:20px;"  >
 										<div class="pull-right  col-xs-12" >ATENCIÓN TELEFÓNICA</div>
 										<div class="pull-right  col-xs-12" style="margin-top:0px;">(667) 000 00 00</div>
