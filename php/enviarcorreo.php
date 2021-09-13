@@ -23,8 +23,8 @@ $mail->SMTPAuth = true;
 $mail->SMTPSecure = 'tls';
 $mail->Host = 'smtp.gmail.com';
 $mail->Port = 587;
-$mail->Username = 'sistemas2@agcollege.edu.mx';
-$mail->Password = 'keko1234';
+$mail->Username = 'noreply@aggroup.com.mx';
+$mail->Password = 'Agcollege2021#';
 $mail->IsHTML(true);
 
 //$mail->From = $_POST['email'];
@@ -42,7 +42,7 @@ $mail->MsgHTML(
 $mail->AddAddress('casa@agcollege.edu.mx' , 'Asesor');
 $mail->AddAddress('admisiones@umi.edu.mx' , 'Asesor');
 
-//$mail->AddAddress('ernesto.torres@aggroup.com.mx' , 'Asesor');
+$mail->AddAddress('ernesto.torres@aggroup.com.mx' , 'Asesor');
 
 /*
  $mail->AddAddress('cesar.ibarra@agcollege.edu.mx' , 'Cesar Ibarra');
@@ -54,8 +54,8 @@ $mail->AddAddress('admisiones@umi.edu.mx' , 'Asesor');
 
 if(!$mail->Send()) {
     echo 0;
-    //echo 'Error: ' . $mail->ErrorInfo;
-    //header('Refresh: 2; url=' . $_SERVER['HTTP_REFERER']);
+    echo 'Error: ' . $mail->ErrorInfo;
+    header('Refresh: 2; url=' . $_SERVER['HTTP_REFERER']);
 } else {
     echo 1;
 }
