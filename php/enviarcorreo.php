@@ -41,10 +41,10 @@ $mail->MsgHTML(
     '<p>Mensaje:<br> <strong>'.$mensaje.'</strong></p>'
 );
 
-//$mail->AddAddress('casa@agcollege.edu.mx' , 'Asesor');
-$mail->AddAddress('ernesto.torres@aggroup.com.mx' , 'Asesor');
+$mail->AddAddress('casa@agcollege.edu.mx' , 'Asesor');
+$mail->AddAddress('admisiones@umi.edu.mx' , 'Asesor');
 
-//$mail->AddAddress('admisiones@umi.edu.mx' , 'Asesor');
+//$mail->AddAddress('ernesto.torres@aggroup.com.mx' , 'Asesor');
 
 /*
  $mail->AddAddress('cesar.ibarra@agcollege.edu.mx' , 'Cesar Ibarra');
