@@ -360,7 +360,7 @@ if($url=="http://www.itoks.mx:80/" or $url=="http://itoks.mx:80/")
 
 							<form class="form" id="form_contacto" name="form_cantacto" >
 								<div class="form-group col-md-12 col-xs-12">
-									<div class="titulo_contacto" ><h2>CONTACTO</h2></div>
+									<div class="titulo_contacto" ><h2>CONTACTO - v13092021</h2></div>
 									<small class="p_texto_small">Tu opinión es muy importante para nosotros. Si tienes algún comentario o sugerencia, ponte en contacto con nosotros.</small>
 								</div>
 								<div class="form-group col-md-12 col-xs-12">
