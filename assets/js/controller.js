@@ -206,7 +206,7 @@ $(document).ready(function() {
                 var $form = $(e.target),
                     fv = $form.data('formValidation');
 
-
+                console.log($form)
 
                 $.ajax({
                     url: 'php/enviarcorreo.php',
