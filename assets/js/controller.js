@@ -8,7 +8,7 @@ $(document).ready(function() {
     combobox_estados_2();
     combobox_ciudades_2();
 
-    $.getJSON("http://jsonip.com?callback=?", function(data) {
+    $.getJSON("https://api.ipify.org?format=json", function(data) {
         $("#ip").val(data.ip);
     });
 
