@@ -6,7 +6,7 @@
 <script src="assets/js/formValidation.js"></script>
 <script src="assets/js/framework/bootstrap.min.js"></script>
 
-<script src="assets/js/controller.js?r=2020-02-20"></script>
+<script src="assets/js/controller.js?r=2021-09-13"></script>
 <!--<script src="assets/css/pie/PIE.js"></script>-->
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
