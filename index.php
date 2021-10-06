@@ -1721,7 +1721,7 @@ aprendizaje, en un ambiente visual y auditivo.
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-12 text-left">
-								 <img src="assets/img/Flyer_web.jpeg" alt="  " width="72%">
+								 <img src="assets/img/Flyer_web.jpeg" alt="    " width="72%">
 							</div>
 						</div>
 					</div>
