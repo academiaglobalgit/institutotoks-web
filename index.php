@@ -44,7 +44,7 @@ if($url=="http://www.itoks.mx:80/" or $url=="http://itoks.mx:80/")
         /* Hidden by default */
         position: fixed;
         /* Stay in place */
-        z-index: 1;
+        z-index: 2000;
         /* Sit on top */
         padding-top: 100px;
         /* Location of the box */
@@ -479,7 +479,7 @@ if($url=="http://www.itoks.mx:80/" or $url=="http://itoks.mx:80/")
 
 							<form class="form" id="form_contacto" name="form_cantacto" >
 								<div class="form-group col-md-12 col-xs-12">
-									<div class="titulo_contacto" ><h2>CONTACTO - v13092021-5</h2></div>
+									<div class="titulo_contacto" ><h2>CONTACTO</h2></div>
 									<small class="p_texto_small">Tu opinión es muy importante para nosotros. Si tienes algún comentario o sugerencia, ponte en contacto con nosotros.</small>
 								</div>
 								<div class="form-group col-md-12 col-xs-12">
@@ -1856,7 +1856,7 @@ aprendizaje, en un ambiente visual y auditivo.
 	
 </div> -->
 
-<div id="myModal" style="overflow: auto;"class="modal modal-noticia">
+<div id="modal_flyer" style="overflow: auto;"class="modal modal-noticia">
     <span class="close cerrar" style="margin-top: 80px;position: aboslute;" data-dismiss="modal" aria-label="Close" id="cerrarNoticia" onclick="cerrarNoticia()">&times;</span>
         <img class="modal-content modal-contenido" id="img01">
    
@@ -1867,7 +1867,7 @@ aprendizaje, en un ambiente visual y auditivo.
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 
 <script type="text/javascript">
- var modal = document.getElementById("myModal");
+ var modal = document.getElementById("modal_flyer");
     var span = document.getElementById("cerrarNoticia");
     var modalImg = document.getElementById("img01");
     var captionText = document.getElementById("caption");
