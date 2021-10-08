@@ -1856,6 +1856,7 @@ aprendizaje, en un ambiente visual y auditivo.
 	
 </div> -->
 
+
 <div id="myModal" style="overflow: auto;"class="modal modal-noticia">
     <span class="close cerrar" style="margin-top: 80px;position: aboslute;" data-dismiss="modal" aria-label="Close" id="cerrarNoticia" onclick="cerrarNoticia()">&times;</span>
         <img class="modal-content modal-contenido" id="img01">
