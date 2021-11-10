@@ -1873,7 +1873,7 @@ aprendizaje, en un ambiente visual y auditivo.
     var captionText = document.getElementById("caption");
 
     modal.style.display = "block";
-    modalImg.src = "assets/img/Flyer_web_2.jpg";
+    modalImg.src = "assets/img/FLYER_TOKS_2.jpg";
     captionText.innerHTML = `
         
         <a id="cerrarNoticia" class="btn btn-primary" href="assets/img/Flyer_web_2.jpg" target="_blank">Descargar</a>
