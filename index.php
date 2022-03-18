@@ -541,7 +541,7 @@ if($url=="http://www.itoks.mx:80/" or $url=="http://itoks.mx:80/")
 					<div class="row text-center">
 						<div class="form-group col-md-12 col-xs-12">
 							<div class="" ><h5>LADA SIN COSTO:<br>
- 01 800 890 9159, 01 800 890 7949 y 01 800 890 8925 </h5></div>
+ 800 890 9919 y 800 849 7056</h5></div>
 							
 							
 						</div>
